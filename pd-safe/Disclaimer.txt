@@ -1,0 +1,3 @@
+This is the exact code from MrFrk's pd-safe: https://forum.cfx.re/t/release-pd-safe-standalone-lua-safecracking-minigame/1231799
+
+This file is in no way made by me nor am I taking credit for it. I have simply included the code in the resource so it's a simpple drag and drop. Any issues please contact me on my discord: https://discord.gg/VXJz2Yw
