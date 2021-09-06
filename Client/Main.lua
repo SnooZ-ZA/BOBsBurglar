@@ -500,7 +500,7 @@ Citizen.CreateThread(function() -- Jobs
 											while not HasModelLoaded("s_m_y_dealer_01") do
 											Wait(10)
 											end
-											local ped = GetPlayerPed(-1)
+											local ped = PlayerPedId()
 											local coords = GetOffsetFromEntityInWorldCoords(ped, 0.0, 1.2, 0.0)
 											local heading = GetEntityHeading(ped)
 											local pedcoords = GetEntityCoords(ped)
@@ -521,7 +521,7 @@ Citizen.CreateThread(function() -- Jobs
 											SetPedKeepTask(goon, true)
 											GiveWeaponToPed(goon, GetHashKey('WEAPON_GOLFCLUB'),1,false,true)
 										end
-										local playerped = GetPlayerPed(-1)					
+										local playerped = PlayerPedId()					
 										AddRelationshipGroup('HomeOwner')
 										AddRelationshipGroup('PlayerPed')
 										SetPedRelationshipGroupHash(goon, 'HomeOwner')
